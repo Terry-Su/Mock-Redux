@@ -1,0 +1,23 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_module"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "allowJs": true,
+    "outDir": "build",
+		"sourceMap": true,
+    "noImplicitAny": true,
+		"lib": [
+			"es5",
+      "es2015",
+      "es2016",
+      "dom",
+		],
+		"allowSyntheticDefaultImports": true,
+  },
+  "typeRoots": ["src/typings/**/*"]
+}

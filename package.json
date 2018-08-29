@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "@types/lodash": "^4.14.116",
+    "@types/node": "^10.9.2",
+    "eslint": "^5.4.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "jasmine": "^3.2.0",
+    "redux": "^4.0.0",
+    "typescript": "^3.0.1",
+    "typescript-eslint-parser": "^18.0.0"
+  },
+  "name": "mock-redux",
+  "description": "",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "node spec/entry.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terry-Su/Mock-Redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terry-Su/Mock-Redux/issues"
+  },
+  "homepage": "https://github.com/Terry-Su/Mock-Redux#readme"
+}
